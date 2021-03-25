@@ -7,18 +7,13 @@ body {
   font-family: "Lobster", cursive;
   background: black;
 }
-header,
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: "Montserrat", sans-serif;
   background-color: black;
   color: white;
-}
-h1 {
-  font-size: 60px;
 }
 footer {
   background-color: #3299f7;
@@ -26,10 +21,9 @@ footer {
 h3 {
   font-size: 45px;
   font-family: "Lobster", cursive;
-  border: 2px solid #333333;
-  filter: blur(1px);
+  border: 2px solid #fff;
   padding: 50px;
-  color: #333333;
+  color: #fff;
 }
 
 .animation {
@@ -48,6 +42,14 @@ h3 {
   transform: translate(-50%, -50%);
   z-index: 100;
   color: white;
+}
+.prim {
+  top: 5%;
+  left: 5%;
+  transform: translate(-5%, -5%);
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+  font-weight: bold;
 }
 section img {
   height: 100px;
