@@ -1,22 +1,5 @@
 gsap.registerPlugin(MotionPathPlugin);
 
-document.addEventListener('load', (e) => {
-    console.log('onload', e)
-    window.scrollTo(0,0);
-})
-
-//check for Navigation Timing API support
-if (window.performance) {
-    console.info("window.performance works fine on this browser");
-  }
-  console.info(performance.navigation.type);
-  if (performance.navigation.type == performance.navigation.TYPE_RELOAD) {
-    console.info( "This page is reloaded" );
-    window.scrollTo(0,0);
-  } else {
-    console.info( "This page is not reloaded");
-  }
-  
 const flightPath = {
     curviness: 1.25,
     autoRotate: true,
